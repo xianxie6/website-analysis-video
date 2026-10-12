@@ -1,0 +1,23 @@
+{
+  "project": "网站解析示例（替换为本次项目）",
+  "url": "https://example.com",
+  "duration": 12,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "require_audio": true,
+  "evidence": [
+    {"id": "E01", "kind": "observed", "source": "填写入口、动作和结果，或对应文件/URL"}
+  ],
+  "scenes": [
+    {
+      "id": "operation-01",
+      "start": 0,
+      "end": 12,
+      "claims": [{"text": "替换为已验证的操作结论", "evidence_ids": ["E01"]}],
+      "media": [{"path": "recordings/action-01.mp4", "coverage": "complete", "capture_fps": 30}],
+      "voice": {"path": "audio/voice-01.wav", "duration": 9.4, "offset": 0.45, "rate": 1},
+      "captions": [{"text": "替换成与旁白一致的字幕", "start": 0.45, "end": 3.2}]
+    }
+  ]
+}

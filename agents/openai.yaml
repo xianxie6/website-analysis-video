@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站拆解与实操视频"
+  short_description: "从技术与业务证据分析，到实操录屏、局部放大、配音剪辑及交付"
+  default_prompt: "用 $website-analysis-video 分析这个网站，并制作突出真实操作、文字精简的中文解析视频。"
